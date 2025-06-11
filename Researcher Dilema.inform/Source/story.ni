@@ -7,6 +7,10 @@ Data Crisis is a room. "You have insufficient data for your paper. Dr. Stern is 
 Authorship is a room. "Your paper is published, but Dr. Stern has added his name as lead author without contributing anything. Do you confront him or stay silent?"
 Plagiarism is a room. "You are struggling to meet a deadline. A colleague offers you their old paper to 'borrow' from. Do you plagiarize or write your own?"
 Grant Misuse is a room. "You receive a research grant, but your lab is short on supplies. Do you use the grant for personal expenses or only for research?"
+
+ChatGPT Dilemma is a room. "You are struggling to write a section of your paper. You consider using ChatGPT to generate text, but your university has unclear policies on AI-generated content. Do you use ChatGPT or write it yourself?"
+Data Leak is a room. "You accidentally send a dataset containing sensitive participant information to a collaborator. Do you report the breach or try to quietly fix the mistake?"
+The Participant Harm is a room. "Your experiment is producing interesting results, but a participant reports feeling distressed. Do you stop the experiment to protect them, or continue for the sake of your data?"
 [ROOMS END HERE]
 
 
@@ -76,8 +80,9 @@ Carry out asking why:
 
 
 [WELCOME ROOM STARTS HERE]
-Dr Stern's folder is in the Welcome. The description is "A leading expert in AI, known for pushing students hard—sometimes too hard."
+Dr Stern's folder is in the Welcome. The description is "A leading expert in AI, known for pushing students hard, sometimes too hard."
 Dr Vale's folder is in the Welcome. The description is "A rising star in ethics and tech. Friendly, but not well-connected."
+
 
 
 Choosing a supervisor is a truth state that varies. Choosing a supervisor is false.
@@ -199,3 +204,75 @@ Carry out using grant properly:
     say "You use the grant strictly for research, even though it means personal sacrifice.";
     end the story saying "You finished your PhD with integrity!";
 [IV. GRANT MISUSE ENDS HERE]
+
+[V. CHATGPT DILEMMA STARTS HERE]
+Understand "use chatgpt" or "generate text" as using chatgpt.
+Using chatgpt is an action applying to nothing.
+
+Carry out using chatgpt:
+	say "You use ChatGPT to help write your paper section. The work is easier, but you worry about the unclear policies.";
+	let n be a random number from 1 to 100;
+	if n <= 20:
+		say "A reviewer suspects AI-generated content and your paper is flagged for investigation.";
+		end the story saying "Your use of AI led to academic scrutiny.";
+	else:
+		say "The paper is accepted. You feel relieved, but uncertain about the ethics.";
+		end the story saying "You finished, but the ethical question lingers.";
+
+Understand "write myself" or "write it myself" as writing myself.
+Writing myself is an action applying to nothing.
+
+Carry out writing myself:
+	say "You write the section yourself, struggling but learning a lot.";
+	end the story saying "You completed your work honestly, with new skills.";
+[V. CHATGPT DILEMMA ENDS HERE]
+
+[VI. DATA LEAK STARTS HERE]
+Understand "report breach" or "report data leak" as reporting breach.
+Reporting breach is an action applying to nothing.
+
+Carry out reporting breach:
+	say "You report the data breach to your supervisor and the ethics board.";
+	let n be a random number from 1 to 100;
+	if n <= 25:
+		say "The university investigates, but praises your honesty. You help improve data security.";
+		end the story saying "You acted with integrity and helped prevent future mistakes.";
+	else:
+		say "There are consequences, but your honesty is respected.";
+		end the story saying "You faced the fallout, but kept your reputation.";
+
+Understand "fix quietly" or "fix mistake" as fixing quietly.
+Fixing quietly is an action applying to nothing.
+
+Carry out fixing quietly:
+	say "You try to quietly fix the mistake, hoping no one notices.";
+	let n be a random number from 1 to 100;
+	if n <= 30:
+		say "The breach is discovered later, and you are blamed for a cover-up.";
+		end the story saying "Your attempt to hide the breach backfired.";
+	else:
+		say "No one finds out, but you feel uneasy about your choice.";
+		end the story saying "You avoided trouble, but at a cost to your conscience.";
+[VI. DATA LEAK ENDS HERE]
+
+[VII. PARTICIPANT HARM STARTS HERE]
+Understand "stop experiment" or "protect participant" as stopping experiment.
+Stopping experiment is an action applying to nothing.
+
+Carry out stopping experiment:
+	say "You stop the experiment to protect the participant. Your data is incomplete, but you know you did the right thing.";
+	end the story saying "You put ethics before results.";
+
+Understand "continue experiment" or "continue for data" as continuing experiment.
+Continuing experiment is an action applying to nothing.
+
+Carry out continuing experiment:
+	say "You continue the experiment despite the participant's distress. The data is strong, but the ethics are questionable.";
+	let n be a random number from 1 to 100;
+	if n <= 40:
+		say "The participant files a complaint. Your research is investigated and halted.";
+		end the story saying "You prioritized data over people, and it cost you.";
+	else:
+		say "No one complains, but you are left with doubts about your choices.";
+		end the story saying "You finished, but at what ethical cost?";
+[VII. PARTICIPANT HARM ENDS HERE]

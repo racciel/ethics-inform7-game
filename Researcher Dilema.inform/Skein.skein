@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x6367c4a23170" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5f076a178750" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x6367c4a23170"/>
-  <item nodeId="node-0x6367c4a23170">
+  <activeNode nodeId="node-0x5f076a766110"/>
+  <item nodeId="node-0x5f076a178750">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,7 +11,7 @@
 Please enter your name:
 Researcher Dilemma
 An Interactive Fiction by Andreas Leja
-Release 1 / Serial number 250609 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 250611 / Inform 7 v10.1.2 / D
 
 Setup
 Welcome to the world of academic research. Before we begin, please tell us your name and your field of research.
@@ -19,18 +19,18 @@ Welcome to the world of academic research. Before we begin, please tell us your 
 Name: </result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3baf6e0"/>
-      <child nodeId="node-0x6367c55a5910"/>
-      <child nodeId="node-0x6367c562a550"/>
-      <child nodeId="node-0x6367c55cf080"/>
-      <child nodeId="node-0x6367c3b132f0"/>
+      <child nodeId="node-0x5f076a0cbf40"/>
+      <child nodeId="node-0x5f076a204620"/>
+      <child nodeId="node-0x5f076a204010"/>
+      <child nodeId="node-0x5f076a3716d0"/>
+      <child nodeId="node-0x5f076a3f3d30"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3baf6e0">
+  <item nodeId="node-0x5f076a0cbf40">
     <command xml:space="preserve">Examine</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -41,10 +41,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c5594f60"/>
+      <child nodeId="node-0x5f076a14f930"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c5594f60">
+  <item nodeId="node-0x5f076a14f930">
     <command xml:space="preserve">Take USB stick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -55,10 +55,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55a1930"/>
+      <child nodeId="node-0x5f076a200c30"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55a1930">
+  <item nodeId="node-0x5f076a200c30">
     <command xml:space="preserve">Examine the camera</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -69,7 +69,7 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x6367c55a5910">
+  <item nodeId="node-0x5f076a204620">
     <command xml:space="preserve">examine Dr Stern&apos;s folder</command>
     <result xml:space="preserve">Thank you, examine Dr Stern&apos;s folder. Now, what is your field of research?
 
@@ -80,10 +80,10 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55a89c0"/>
+      <child nodeId="node-0x5f076a207660"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55a89c0">
+  <item nodeId="node-0x5f076a207660">
     <command xml:space="preserve">No</command>
     <result xml:space="preserve">Excellent, examine Dr Stern&apos;s folder. A rising star in No, ready to begin their academic journey.
 
@@ -99,10 +99,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55abc70"/>
+      <child nodeId="node-0x5f076a20a9a0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55abc70">
+  <item nodeId="node-0x5f076a20a9a0">
     <command xml:space="preserve">stay honest</command>
     <result xml:space="preserve">You decide to be honest and report insufficient data. Your paper is rejected, but your conscience is clear.
 
@@ -113,10 +113,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55aef80"/>
+      <child nodeId="node-0x5f076a321460"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55aef80">
+  <item nodeId="node-0x5f076a321460">
     <command xml:space="preserve">Stay silent</command>
     <result xml:space="preserve">You let it go. The paper boosts your profile, but the injustice gnaws at you.
 
@@ -134,10 +134,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55b2c40"/>
+      <child nodeId="node-0x5f076a325040"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55b2c40">
+  <item nodeId="node-0x5f076a325040">
     <command xml:space="preserve">RESTART</command>
     <result xml:space="preserve">
 
@@ -158,26 +158,80 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x6367c562a550">
+  <item nodeId="node-0x5f076a204010">
+    <command xml:space="preserve">Andrew</command>
+    <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
+
+Field: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a32bf00"/>
+      <child nodeId="node-0x5f076a35a310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a32bf00">
+    <command xml:space="preserve">AI</command>
+    <result xml:space="preserve">You entered: Andrew, researcher in AI. Is this correct? (yes/no)
+Confirm: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a1fa260"/>
+      <child nodeId="node-0x5f076a7437b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a1fa260">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Let&apos;s try again. Please enter your name:
+Name: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a32d8a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a32d8a0">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
 Field: </result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55a40b0"/>
-      <child nodeId="node-0x6367c559bf20"/>
+      <child nodeId="node-0x5f076a330e10"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55a40b0">
+  <item nodeId="node-0x5f076a330e10">
     <command xml:space="preserve">AI</command>
-    <result xml:space="preserve">Excellent, Andrew. A rising star in AI, ready to begin their academic journey.
+    <result xml:space="preserve">You entered: Andrew, researcher in AI. Is this correct? (yes/no)
+Confirm: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a334090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a334090">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">Ahhhh, yes, I remember Andrew! A rising star in AI, ready to begin their academic journey.
 
-Welcome Office
+Welcome
 A plain, white room with two folders on the table: one marked Dr. Stern, the other Dr. Vale. Your PhD begins now.
 
 You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
@@ -188,8 +242,248 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a337440"/>
+    </children>
   </item>
-  <item nodeId="node-0x6367c559bf20">
+  <item nodeId="node-0x5f076a337440">
+    <command xml:space="preserve">read stern</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a33b2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a33b2a0">
+    <command xml:space="preserve">pick vale</command>
+    <result xml:space="preserve">Andrew, you&apos;ve chosen Dr. Vale as your supervisor. Let the work begin.
+
+Data Crisis
+You have insufficient data for your paper. Dr. Stern is pressuring you to submit it anyway. Do you fake the data or stay honest?
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a33e030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a33e030">
+    <command xml:space="preserve">stay honest</command>
+    <result xml:space="preserve">You decide to be honest and report insufficient data. Your paper is rejected, but your conscience is clear.
+
+Plagiarism
+You are struggling to meet a deadline. A colleague offers you their old paper to &quot;borrow&quot; from. Do you plagiarize or write your own?
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a341280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a341280">
+    <command xml:space="preserve">write your own</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a346e70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a346e70">
+    <command xml:space="preserve">my own</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a34a2c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a34a2c0">
+    <command xml:space="preserve">write my own</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a34d5b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a34d5b0">
+    <command xml:space="preserve">write own</command>
+    <result xml:space="preserve">You work hard and write your own paper. It&apos;s not perfect, but it&apos;s yours.
+
+Grant Misuse
+You receive a research grant, but your lab is short on supplies. Do you use the grant for personal expenses or only for research?
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a3508b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a3508b0">
+    <command xml:space="preserve">only for research</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a353c90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a353c90">
+    <command xml:space="preserve">use for research</command>
+    <result xml:space="preserve">You use the grant strictly for research, even though it means personal sacrifice.
+
+
+
+    *** You finished your PhD with integrity! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a356f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a356f20">
+    <command xml:space="preserve">QUIT</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5f076a7437b0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Confirm: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a7504a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a7504a0">
+    <command xml:space="preserve">Andrew</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+Confirm: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076aad93c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076aad93c0">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Let&apos;s try again. Please enter your name:
+Name: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a5f9a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a5f9a80">
+    <command xml:space="preserve">Andrew</command>
+    <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
+
+Field: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076aa8e820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076aa8e820">
+    <command xml:space="preserve">articifial intelligence</command>
+    <result xml:space="preserve">You entered: Andrew, researcher in articifial intelligence. Is this correct? (yes/no)
+Confirm: </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5f076a766110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5f076a766110">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">Ahhhh, yes, I remember Andrew! A rising star in articifial intelligence, ready to begin their academic journey.
+
+Welcome
+A plain, white room with two folders on the table: one marked Dr. Stern, the other Dr. Vale. Your PhD begins now.
+
+You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
+
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5f076a35a310">
     <command xml:space="preserve">Cocks</command>
     <result xml:space="preserve">You entered: Andrew, researcher in Cocks. Is this correct? (yes/no)
 Confirm: </result>
@@ -199,10 +493,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55bb9a0"/>
+      <child nodeId="node-0x5f076a35d630"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55bb9a0">
+  <item nodeId="node-0x5f076a35d630">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Ahhhh, yes, I remember Andrew! A rising star in Cocks, ready to begin their academic journey.
 
@@ -218,10 +512,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55bebd0"/>
+      <child nodeId="node-0x5f076a360960"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55bebd0">
+  <item nodeId="node-0x5f076a360960">
     <command xml:space="preserve">examine Dr Stern&apos;s folder</command>
     <result xml:space="preserve">Please answer yes or no.
 
@@ -232,10 +526,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55c1ec0"/>
+      <child nodeId="node-0x5f076a363e30"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55c1ec0">
+  <item nodeId="node-0x5f076a363e30">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Please answer yes or no.
 
@@ -246,10 +540,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55c5200"/>
+      <child nodeId="node-0x5f076a3671f0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55c5200">
+  <item nodeId="node-0x5f076a3671f0">
     <command xml:space="preserve">pick Dr Stern</command>
     <result xml:space="preserve">Please answer yes or no.
 
@@ -260,10 +554,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55c9020"/>
+      <child nodeId="node-0x5f076a36a520"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55c9020">
+  <item nodeId="node-0x5f076a36a520">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Please answer yes or no.
 
@@ -274,10 +568,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55cbdb0"/>
+      <child nodeId="node-0x5f076a36e3f0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55cbdb0">
+  <item nodeId="node-0x5f076a36e3f0">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">Please answer yes or no.
 
@@ -288,7 +582,7 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x6367c55cf080">
+  <item nodeId="node-0x5f076a3716d0">
     <command xml:space="preserve">Andreas</command>
     <result xml:space="preserve">Thank you, Andreas. Now, what is your field of research?
 
@@ -299,11 +593,11 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55d4c60"/>
-      <child nodeId="node-0x6367c3b0c900"/>
+      <child nodeId="node-0x5f076a374b50"/>
+      <child nodeId="node-0x5f076a3ed550"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55d4c60">
+  <item nodeId="node-0x5f076a374b50">
     <command xml:space="preserve">AI</command>
     <result xml:space="preserve">You entered: Andreas, researcher in AI. Is this correct? (yes/no)
 Confirm: </result>
@@ -313,11 +607,11 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55d7e70"/>
-      <child nodeId="node-0x6367c3ab50c0"/>
+      <child nodeId="node-0x5f076a377e50"/>
+      <child nodeId="node-0x5f076a397b40"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55d7e70">
+  <item nodeId="node-0x5f076a377e50">
     <command xml:space="preserve">sex</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -328,10 +622,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55db300"/>
+      <child nodeId="node-0x5f076a37b2b0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55db300">
+  <item nodeId="node-0x5f076a37b2b0">
     <command xml:space="preserve">correct</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -342,10 +636,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55de6c0"/>
+      <child nodeId="node-0x5f076a37e690"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55de6c0">
+  <item nodeId="node-0x5f076a37e690">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">Let&apos;s try again. Please enter your name:
 Name: </result>
@@ -355,10 +649,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55e19e0"/>
+      <child nodeId="node-0x5f076a381ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55e19e0">
+  <item nodeId="node-0x5f076a381ab0">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
@@ -369,10 +663,10 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55e4e70"/>
+      <child nodeId="node-0x5f076a384ee0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55e4e70">
+  <item nodeId="node-0x5f076a384ee0">
     <command xml:space="preserve">Cocks</command>
     <result xml:space="preserve">You entered: Andrew, researcher in Cocks. Is this correct? (yes/no)
 Confirm: </result>
@@ -382,10 +676,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55e8100"/>
+      <child nodeId="node-0x5f076a344590"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55e8100">
+  <item nodeId="node-0x5f076a344590">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">Let&apos;s try again. Please enter your name:
 Name: </result>
@@ -395,10 +689,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55eb500"/>
+      <child nodeId="node-0x5f076a38e000"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55eb500">
+  <item nodeId="node-0x5f076a38e000">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
@@ -409,10 +703,10 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3aaea60"/>
+      <child nodeId="node-0x5f076a3914c0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3aaea60">
+  <item nodeId="node-0x5f076a3914c0">
     <command xml:space="preserve">Cocks</command>
     <result xml:space="preserve">You entered: Andrew, researcher in Cocks. Is this correct? (yes/no)
 Confirm: </result>
@@ -422,10 +716,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ab1d60"/>
+      <child nodeId="node-0x5f076a3947c0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ab1d60">
+  <item nodeId="node-0x5f076a3947c0">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Excellent, Andrew. A rising star in Cocks, ready to begin their academic journey.
 
@@ -441,7 +735,7 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x6367c3ab50c0">
+  <item nodeId="node-0x5f076a397b40">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Ahhhh, yes, I remember Andreas! A rising star in AI, ready to begin their academic journey.
 
@@ -457,10 +751,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ab84b0"/>
+      <child nodeId="node-0x5f076a39ae00"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ab84b0">
+  <item nodeId="node-0x5f076a39ae00">
     <command xml:space="preserve">Examine Dr Stern&apos;s file</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine Dr Stern&apos;s folder.
 
@@ -471,10 +765,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3abc2b0"/>
+      <child nodeId="node-0x5f076a39e280"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3abc2b0">
+  <item nodeId="node-0x5f076a39e280">
     <command xml:space="preserve">pick stern</command>
     <result xml:space="preserve">Andreas, you&apos;ve chosen Dr. Stern as your supervisor. Let the work begin.
 
@@ -488,10 +782,10 @@ You have insufficient data. Your supervisor is pressuring you to publish. Do you
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3abf360"/>
+      <child nodeId="node-0x5f076a3a1790"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3abf360">
+  <item nodeId="node-0x5f076a3a1790">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">That was a rhetorical question.
 
@@ -502,10 +796,10 @@ You have insufficient data. Your supervisor is pressuring you to publish. Do you
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ac27c0"/>
+      <child nodeId="node-0x5f076a3a4ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ac27c0">
+  <item nodeId="node-0x5f076a3a4ac0">
     <command xml:space="preserve">stay silent</command>
     <result xml:space="preserve">You let it go. The paper boosts your profile, but the injustice gnaws at you.
 
@@ -523,10 +817,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ac5a50"/>
+      <child nodeId="node-0x5f076a3a7d60"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ac5a50">
+  <item nodeId="node-0x5f076a3a7d60">
     <command xml:space="preserve">RESTART</command>
     <result xml:space="preserve">
 
@@ -547,10 +841,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ac8de0"/>
+      <child nodeId="node-0x5f076a3aafd0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ac8de0">
+  <item nodeId="node-0x5f076a3aafd0">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
@@ -561,10 +855,10 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3acc140"/>
+      <child nodeId="node-0x5f076a3ae420"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3acc140">
+  <item nodeId="node-0x5f076a3ae420">
     <command xml:space="preserve">AI</command>
     <result xml:space="preserve">You entered: Andrew, researcher in AI. Is this correct? (yes/no)
 Confirm: </result>
@@ -574,10 +868,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3acf4f0"/>
+      <child nodeId="node-0x5f076a3b17d0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3acf4f0">
+  <item nodeId="node-0x5f076a3b17d0">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">Let&apos;s try again. Please enter your name:
 Name: </result>
@@ -587,10 +881,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ad2950"/>
+      <child nodeId="node-0x5f076a3b4c30"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ad2950">
+  <item nodeId="node-0x5f076a3b4c30">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
@@ -601,10 +895,10 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c55d3780"/>
+      <child nodeId="node-0x5f076a3b80a0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c55d3780">
+  <item nodeId="node-0x5f076a3b80a0">
     <command xml:space="preserve">Cocks</command>
     <result xml:space="preserve">You entered: Andrew, researcher in Cocks. Is this correct? (yes/no)
 Confirm: </result>
@@ -614,10 +908,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3adbca0"/>
+      <child nodeId="node-0x5f076a3bb3a0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3adbca0">
+  <item nodeId="node-0x5f076a3bb3a0">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Ahhhh, yes, I remember Andrew! A rising star in Cocks, ready to begin their academic journey.
 
@@ -633,10 +927,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3adf060"/>
+      <child nodeId="node-0x5f076a3be720"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3adf060">
+  <item nodeId="node-0x5f076a3be720">
     <command xml:space="preserve">pick dr vale</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -647,10 +941,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ae2450"/>
+      <child nodeId="node-0x5f076a3c1b10"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ae2450">
+  <item nodeId="node-0x5f076a3c1b10">
     <command xml:space="preserve">pick vale</command>
     <result xml:space="preserve">Andrew, you&apos;ve chosen Dr. Vale as your supervisor. Let the work begin.
 
@@ -664,10 +958,10 @@ You have insufficient data. Your supervisor is pressuring you to publish. Do you
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ae5880"/>
+      <child nodeId="node-0x5f076a3c4f40"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ae5880">
+  <item nodeId="node-0x5f076a3c4f40">
     <command xml:space="preserve">fake the data</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -678,10 +972,10 @@ You have insufficient data. Your supervisor is pressuring you to publish. Do you
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3ae8c10"/>
+      <child nodeId="node-0x5f076a3c82d0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3ae8c10">
+  <item nodeId="node-0x5f076a3c82d0">
     <command xml:space="preserve">fake data</command>
     <result xml:space="preserve">You fabricate the missing results and submit the paper.
 The paper is accepted. Your reputation grows, but you feel uneasy.
@@ -693,10 +987,10 @@ The paper is accepted. Your reputation grows, but you feel uneasy.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3aec220"/>
+      <child nodeId="node-0x5f076a3cb8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3aec220">
+  <item nodeId="node-0x5f076a3cb8e0">
     <command xml:space="preserve">RESTART</command>
     <result xml:space="preserve">Are you sure you want to restart? </result>
     <commentary xml:space="preserve"></commentary>
@@ -705,10 +999,10 @@ The paper is accepted. Your reputation grows, but you feel uneasy.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3aef6a0"/>
+      <child nodeId="node-0x5f076a3ced60"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3aef6a0">
+  <item nodeId="node-0x5f076a3ced60">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">
 
@@ -729,10 +1023,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3af2860"/>
+      <child nodeId="node-0x5f076a3d2250"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3af2860">
+  <item nodeId="node-0x5f076a3d2250">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
@@ -743,10 +1037,10 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3af5d50"/>
+      <child nodeId="node-0x5f076a3d5f70"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3af5d50">
+  <item nodeId="node-0x5f076a3d5f70">
     <command xml:space="preserve">AI</command>
     <result xml:space="preserve">You entered: Andrew, researcher in AI. Is this correct? (yes/no)
 Confirm: </result>
@@ -756,10 +1050,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3af9050"/>
+      <child nodeId="node-0x5f076a3d9270"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3af9050">
+  <item nodeId="node-0x5f076a3d9270">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Ahhhh, yes, I remember Andrew! A rising star in AI, ready to begin their academic journey.
 
@@ -775,10 +1069,10 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3afc4c0"/>
+      <child nodeId="node-0x5f076a3dd610"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3afc4c0">
+  <item nodeId="node-0x5f076a3dd610">
     <command xml:space="preserve">pick stern</command>
     <result xml:space="preserve">Andrew, you&apos;ve chosen Dr. Stern as your supervisor. Let the work begin.
 
@@ -792,10 +1086,10 @@ You have insufficient data. Your supervisor is pressuring you to publish. Do you
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3aff900"/>
+      <child nodeId="node-0x5f076a3e0700"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3aff900">
+  <item nodeId="node-0x5f076a3e0700">
     <command xml:space="preserve">fake data</command>
     <result xml:space="preserve">You fabricate the missing results and submit the paper.
 The paper is accepted. Your reputation grows, but you feel uneasy.
@@ -810,10 +1104,10 @@ Your paper is finally published, but Dr. Stern has added his name as lead author
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b02c30"/>
+      <child nodeId="node-0x5f076a3e3a90"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b02c30">
+  <item nodeId="node-0x5f076a3e3a90">
     <command xml:space="preserve">stay silent</command>
     <result xml:space="preserve">You let it go. The paper boosts your profile, but the injustice gnaws at you.
 
@@ -831,10 +1125,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b05e80"/>
+      <child nodeId="node-0x5f076a3e6ce0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b05e80">
+  <item nodeId="node-0x5f076a3e6ce0">
     <command xml:space="preserve">RESTART</command>
     <result xml:space="preserve">
 
@@ -855,10 +1149,10 @@ Name: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b094b0"/>
+      <child nodeId="node-0x5f076a3ea100"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b094b0">
+  <item nodeId="node-0x5f076a3ea100">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
@@ -869,7 +1163,7 @@ Field: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x6367c3b0c900">
+  <item nodeId="node-0x5f076a3ed550">
     <command xml:space="preserve">Artificual Intelligence</command>
     <result xml:space="preserve">You entered: Andreas, researcher in Artificual Intelligence. Is this correct? (yes/no)
 Confirm: </result>
@@ -879,10 +1173,10 @@ Confirm: </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b0fde0"/>
+      <child nodeId="node-0x5f076a3f0a30"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b0fde0">
+  <item nodeId="node-0x5f076a3f0a30">
     <command xml:space="preserve">Yes</command>
     <result xml:space="preserve">Ahhhh, yes, I remember Andreas! A rising star in Artificual Intelligence, ready to begin their academic journey.
 
@@ -898,74 +1192,74 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x6367c3b132f0">
+  <item nodeId="node-0x5f076a3f3d30">
     <command xml:space="preserve">why</command>
     <result xml:space="preserve">Thank you, why. Now, what is your field of research?
 
 Field: </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b166d0"/>
+      <child nodeId="node-0x5f076a3f7110"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b166d0">
+  <item nodeId="node-0x5f076a3f7110">
     <command xml:space="preserve">Ahy</command>
     <result xml:space="preserve">You entered: why, researcher in Ahy. Is this correct? (yes/no)
 Confirm: </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b19b20"/>
+      <child nodeId="node-0x5f076a3fa560"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b19b20">
+  <item nodeId="node-0x5f076a3fa560">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">Let&apos;s try again. Please enter your name:
 Name: </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b1ce30"/>
+      <child nodeId="node-0x5f076a3fd870"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b1ce30">
+  <item nodeId="node-0x5f076a3fd870">
     <command xml:space="preserve">Andrew</command>
     <result xml:space="preserve">Thank you, Andrew. Now, what is your field of research?
 
 Field: </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b204e0"/>
+      <child nodeId="node-0x5f076a400d10"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b204e0">
+  <item nodeId="node-0x5f076a400d10">
     <command xml:space="preserve">AI</command>
     <result xml:space="preserve">You entered: Andrew, researcher in AI. Is this correct? (yes/no)
 Confirm: </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b23fb0"/>
+      <child nodeId="node-0x5f076a404010"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b23fb0">
+  <item nodeId="node-0x5f076a404010">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">Ahhhh, yes, I remember Andrew! A rising star in AI, ready to begin their academic journey.
 
@@ -976,71 +1270,71 @@ You can see Dr Stern&apos;s folder and Dr Vale&apos;s folder here.
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b274e0"/>
+      <child nodeId="node-0x5f076a407480"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b274e0">
+  <item nodeId="node-0x5f076a407480">
     <command xml:space="preserve">why</command>
     <result xml:space="preserve">You are just starting your PhD journey. No ethical dilemma yet-just choices!
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b2b7e0"/>
+      <child nodeId="node-0x5f076a40a8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b2b7e0">
+  <item nodeId="node-0x5f076a40a8e0">
     <command xml:space="preserve">pick dr stern</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b2e920"/>
+      <child nodeId="node-0x5f076a40dd10"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b2e920">
+  <item nodeId="node-0x5f076a40dd10">
     <command xml:space="preserve">pick dr stern</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b31c60"/>
+      <child nodeId="node-0x5f076a389970"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b31c60">
+  <item nodeId="node-0x5f076a389970">
     <command xml:space="preserve">pick Dr Stern</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b35110"/>
+      <child nodeId="node-0x5f076a419600"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b35110">
+  <item nodeId="node-0x5f076a419600">
     <command xml:space="preserve">pick stern</command>
     <result xml:space="preserve">Andrew, you&apos;ve chosen Dr. Stern as your supervisor. Let the work begin.
 
@@ -1049,35 +1343,35 @@ You have insufficient data. Your supervisor is pressuring you to publish. Do you
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b384b0"/>
+      <child nodeId="node-0x5f076a41ca40"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b384b0">
+  <item nodeId="node-0x5f076a41ca40">
     <command xml:space="preserve">why?</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x6367c3b3b8f0"/>
+      <child nodeId="node-0x5f076a41fdf0"/>
     </children>
   </item>
-  <item nodeId="node-0x6367c3b3b8f0">
+  <item nodeId="node-0x5f076a41fdf0">
     <command xml:space="preserve">why?</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt; </result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
